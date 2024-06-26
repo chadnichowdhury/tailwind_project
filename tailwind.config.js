@@ -3,11 +3,18 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     fontFamily: {
-      'Playwrite': ['Playwrite MX', 'cursive'],
+      'Cormorant': ['Cormorant Upright', 'serif'],
+      'Open Sans': ['Open Sans', 'sans-serif'],
     },
-    // font-family: "", ;
+    // font-family: "", ; font-family: "", serif; font-family: "Open Sans", sans-serif;
 
-    extend: {},
+    extend: {
+      backgroundImage : {
+        "my-bg": "url('/images/BG.jpg')",
+      },
+     
+
+    },
   },
   plugins: [],
 }
