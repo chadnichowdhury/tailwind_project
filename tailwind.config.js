@@ -5,8 +5,10 @@ module.exports = {
     fontFamily: {
       'Cormorant': ['Cormorant Upright', 'serif'],
       'Open Sans': ['Open Sans', 'sans-serif'],
+      'common': ["Open Sans", "sans-serif"],
+      'sub': ["Cormorant Upright", "serif"],
     },
-    // font-family: "", ; font-family: "", serif; font-family: "Open Sans", sans-serif;
+   
 
     extend: {
       backgroundImage : {
